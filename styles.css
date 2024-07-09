@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(196, 227, 183);
+    color: rgb(66, 50, 4);
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items to the bottom */
+    gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.footer img {
+    flex: 1; /* This makes images scale relatively */
+    max-width: 64px; /* Sets the maximum width for scaling */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Reset default link styles */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+/* Optional: Specify link styles if needed */
+a:hover {
+    /* Add hover effects if desired */
+    text-decoration: underline;
+}
